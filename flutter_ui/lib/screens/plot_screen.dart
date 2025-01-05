@@ -40,10 +40,9 @@ class _PlotScreenState extends State<PlotScreen> {
 
           // Add general mood score
           if (conversation['generalMoodScore'] != null) {
-            generalMoodScores.add(1.0 - conversation['generalMoodScore'].toDouble());
+            generalMoodScores.add( conversation['generalMoodScore'].toDouble());
           }
         }
-        print(generalMoodScores.toString());
 
         setState(() {
           _symptomData = symptomData;
@@ -72,7 +71,7 @@ class _PlotScreenState extends State<PlotScreen> {
         padding: const EdgeInsets.all(8.0),
         child: SfCartesianChart(
           title: ChartTitle(
-            text: "General Mood Score Over Conversations",
+            text: "Probability of Depression",
             textStyle: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
           ),
           primaryXAxis: NumericAxis(
@@ -82,7 +81,7 @@ class _PlotScreenState extends State<PlotScreen> {
             edgeLabelPlacement: EdgeLabelPlacement.shift,
           ),
           primaryYAxis: NumericAxis(
-            title: AxisTitle(text: 'Mood Score (%)'),
+            title: AxisTitle(text: 'Depression Score (%)'),
             maximum: 100,
           ),
           tooltipBehavior: TooltipBehavior(enable: true),
@@ -93,7 +92,7 @@ class _PlotScreenState extends State<PlotScreen> {
               // Conversation index
               yValueMapper: (value, _) => value * 100,
               // Convert to percentage
-              name: "General Mood Score",
+              name: "Probability of Depression",
               markerSettings: const MarkerSettings(isVisible: true),
               dataLabelSettings: const DataLabelSettings(isVisible: true),
             ),
