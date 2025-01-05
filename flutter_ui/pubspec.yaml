@@ -1,4 +1,4 @@
-name: depression_detection_client
+name: flutter_ui
 description: "Federated learning for depression symptoms detection"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
