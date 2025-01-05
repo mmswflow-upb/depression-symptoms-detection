@@ -124,7 +124,7 @@ async function handleChat(socket, userMessage) {
       .join("\n");
 
     const response = await chatWithGPT(
-      `Continue the conversation with this context:\n${context}\nUser: ${userMessage}`
+      `Continue the conversation with this context:\n${context}\nUser: ${userMessage}. Don't offer general tips on how to handle the situation, just keep asking more detailed questions about how they're coping with the current situation.`
     );
 
     currentConversation.chat.push({ role: "assistant", content: response });

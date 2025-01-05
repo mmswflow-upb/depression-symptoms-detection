@@ -77,11 +77,12 @@ class _PlotScreenState extends State<PlotScreen> {
           ),
           primaryXAxis: NumericAxis(
             title: AxisTitle(text: 'Conversation Number'),
+            minimum: 1,
+
             edgeLabelPlacement: EdgeLabelPlacement.shift,
           ),
           primaryYAxis: NumericAxis(
             title: AxisTitle(text: 'Mood Score (%)'),
-            minimum: 0,
             maximum: 100,
           ),
           tooltipBehavior: TooltipBehavior(enable: true),
@@ -114,12 +115,12 @@ class _PlotScreenState extends State<PlotScreen> {
         primaryXAxis: NumericAxis(
           title: AxisTitle(
               text: 'Session', textStyle: const TextStyle(fontSize: 16)),
+          minimum: 1,
 
         ),
         primaryYAxis: NumericAxis(
           title: AxisTitle(
               text: 'Score (%)', textStyle: const TextStyle(fontSize: 16)),
-          minimum: 0,
           maximum: 100,
         ),
         tooltipBehavior: TooltipBehavior(enable: true),
@@ -156,9 +157,9 @@ class _PlotScreenState extends State<PlotScreen> {
             GridView.count(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
-              crossAxisCount: 2,
-              crossAxisSpacing: 8,
-              mainAxisSpacing: 8,
+              crossAxisCount: 4,
+              crossAxisSpacing: 30,
+              mainAxisSpacing: 30,
               children: _symptomData.entries
                   .map((entry) =>
                   Card(

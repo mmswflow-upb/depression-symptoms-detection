@@ -1,0 +1,236 @@
+{
+  "conversations": [
+    {
+      "chat": [
+        {
+          "role": "user",
+          "content": "Yeah, recently I've had trouble sleeping because I keep thinking about all the unfinished tasks that I have to complete. "
+        },
+        {
+          "role": "assistant",
+          "content": "I'm sorry to hear that you're having trouble sleeping. When you find yourself thinking about these tasks at night, do you do anything specific to try to relax or distract yourself?"
+        },
+        {
+          "role": "user",
+          "content": "I really can't relax or distract myself, all I think about is that I dont want to disappoint my teammates and help them finish the project on time"
+        },
+        {
+          "role": "assistant",
+          "content": "It sounds like you're really committed to your team and the project. When these thoughts come up at night, do you have a specific routine you try to follow, or is it more of a cycle of thinking through each task? How does it affect you the next day at work or when you're back with your team?"
+        },
+        {
+          "role": "user",
+          "content": "Usuallly I just start thinking about what tasks I still have to complete and I fall asleep like that, sometimes I also dream about these tasks that I keep thinking of."
+        },
+        {
+          "role": "assistant",
+          "content": "It sounds like these thoughts and dreams are really connected to the stress you're feeling about the project. When you wake up from dreaming about tasks, do you find that it impacts how you start your day? Are there moments during the day when these thoughts intensify, or is it mostly at night?"
+        },
+        {
+          "role": "user",
+          "content": "I feel a heavy weight on my chest, probably because of all the pressure put on me by my team"
+        },
+        {
+          "role": "assistant",
+          "content": "It sounds like you're carrying a lot on your shoulders. When you feel that weight on your chest, are there specific moments or triggers during the day that make it feel more intense? How do you usually respond when you notice that feeling, especially during team interactions or when you're tackling tasks?"
+        }
+      ],
+      "finalScores": {
+        "anxiety": 60,
+        "sadness": 0,
+        "social_withdrawal": 0,
+        "irritability": 0,
+        "sleep_disturbance": 70,
+        "appetite_disturbance": 0,
+        "reckless_behavior": 0,
+        "reduced_productivity": 0,
+        "loss_of_interest": 0,
+        "physical_complaints": 0,
+        "memory_issues": 0,
+        "fear_of_separation": 0,
+        "sensitivity_to_rejection": 0,
+        "physical_heaviness": 50,
+        "concentration_difficulty": 0,
+        "fatigue": 0,
+        "worthlessness": 0,
+        "suicidal_ideation": 0
+      },
+      "generalMoodScore": 0.4
+    },
+    {
+      "chat": [
+        {
+          "role": "user",
+          "content": "I tried talking with my teammates and asking for help, they refused and told me that I need to work harder because they're putting just as much effort or even more than I am, I feel like I'm deadweight right now and I dont know how to continue.."
+        },
+        {
+          "role": "assistant",
+          "content": "I'm sorry to hear you're feeling this way. It sounds like a tough situation. How are you managing your own workload right now? Are there specific areas where you feel you're struggling the most?"
+        },
+        {
+          "role": "user",
+          "content": "I'm mostly struggling with documentation of the project because there's a lot of graphs and data that it needs to contain to explain the solution of our project, and it takes a lot of time to process data, and I also have to work on some UI features that Im not really sure how to implement, and they're not helping me at all"
+        },
+        {
+          "role": "assistant",
+          "content": "It sounds like you're juggling a couple of challenging tasks. When you're working on the documentation, do you have access to all the data you need, or is part of the struggle gathering and organizing it? And with the UI features, have you tried breaking down the tasks into smaller steps to see if that helps clarify what needs to be done?"
+        },
+        {
+          "role": "user",
+          "content": "I tried, but I keep losing my concentration whenever I try to work on so many small parts of the UI and I forget a lot of things, I haven't been sleeping really well and I feel like it's a vicious cycle"
+        },
+        {
+          "role": "assistant",
+          "content": "It sounds like it's been really overwhelming for you. Losing concentration due to lack of sleep can make it even more challenging to tackle these tasks. When you find yourself struggling to focus, do you take any breaks or have methods to help you refocus? Also, how are you managing your time between these tasks and taking care of yourself?"
+        }
+      ],
+      "finalScores": {
+        "anxiety": 30,
+        "sadness": 70,
+        "social_withdrawal": 40,
+        "irritability": 30,
+        "sleep_disturbance": 80,
+        "appetite_disturbance": 0,
+        "reckless_behavior": 0,
+        "reduced_productivity": 60,
+        "loss_of_interest": 20,
+        "physical_complaints": 0,
+        "memory_issues": 50,
+        "fear_of_separation": 0,
+        "sensitivity_to_rejection": 30,
+        "physical_heaviness": 0,
+        "concentration_difficulty": 70,
+        "fatigue": 60,
+        "worthlessness": 60,
+        "suicidal_ideation": 0
+      },
+      "generalMoodScore": 0.7
+    },
+    
+      
+        {
+          "chat": [],
+          "finalScores": {
+            "anxiety": 50,
+            "sadness": 70,
+            "social_withdrawal": 60,
+            "irritability": 40,
+            "sleep_disturbance": 80,
+            "appetite_disturbance": 20,
+            "reckless_behavior": 0,
+            "reduced_productivity": 50,
+            "loss_of_interest": 80,
+            "physical_complaints": 30,
+            "memory_issues": 50,
+            "fear_of_separation": 70,
+            "sensitivity_to_rejection": 60,
+            "physical_heaviness": 40,
+            "concentration_difficulty": 70,
+            "fatigue": 80,
+            "worthlessness": 70,
+            "suicidal_ideation": 10
+          },
+          "generalMoodScore": 0.7
+        },
+        {
+          "chat": [],
+          "finalScores": {
+            "anxiety": 20,
+            "sadness": 30,
+            "social_withdrawal": 20,
+            "irritability": 10,
+            "sleep_disturbance": 50,
+            "appetite_disturbance": 10,
+            "reckless_behavior": 0,
+            "reduced_productivity": 20,
+            "loss_of_interest": 40,
+            "physical_complaints": 0,
+            "memory_issues": 20,
+            "fear_of_separation": 20,
+            "sensitivity_to_rejection": 30,
+            "physical_heaviness": 10,
+            "concentration_difficulty": 30,
+            "fatigue": 40,
+            "worthlessness": 20,
+            "suicidal_ideation": 0
+          },
+          "generalMoodScore": 0.4
+        },
+        {
+          "chat": [],
+          "finalScores": {
+            "anxiety": 60,
+            "sadness": 80,
+            "social_withdrawal": 70,
+            "irritability": 50,
+            "sleep_disturbance": 90,
+            "appetite_disturbance": 50,
+            "reckless_behavior": 0,
+            "reduced_productivity": 80,
+            "loss_of_interest": 90,
+            "physical_complaints": 40,
+            "memory_issues": 60,
+            "fear_of_separation": 80,
+            "sensitivity_to_rejection": 70,
+            "physical_heaviness": 60,
+            "concentration_difficulty": 80,
+            "fatigue": 90,
+            "worthlessness": 80,
+            "suicidal_ideation": 20
+          },
+          "generalMoodScore": 0.9
+        },
+        {
+          "chat": [],
+          "finalScores": {
+            "anxiety": 10,
+            "sadness": 20,
+            "social_withdrawal": 10,
+            "irritability": 10,
+            "sleep_disturbance": 30,
+            "appetite_disturbance": 10,
+            "reckless_behavior": 0,
+            "reduced_productivity": 10,
+            "loss_of_interest": 20,
+            "physical_complaints": 0,
+            "memory_issues": 10,
+            "fear_of_separation": 10,
+            "sensitivity_to_rejection": 10,
+            "physical_heaviness": 10,
+            "concentration_difficulty": 20,
+            "fatigue": 20,
+            "worthlessness": 10,
+            "suicidal_ideation": 0
+          },
+          "generalMoodScore": 0.2
+        },
+        {
+          "chat": [],
+          "finalScores": {
+            "anxiety": 40,
+            "sadness": 50,
+            "social_withdrawal": 30,
+            "irritability": 40,
+            "sleep_disturbance": 60,
+            "appetite_disturbance": 20,
+            "reckless_behavior": 0,
+            "reduced_productivity": 40,
+            "loss_of_interest": 60,
+            "physical_complaints": 20,
+            "memory_issues": 40,
+            "fear_of_separation": 50,
+            "sensitivity_to_rejection": 50,
+            "physical_heaviness": 30,
+            "concentration_difficulty": 50,
+            "fatigue": 50,
+            "worthlessness": 40,
+            "suicidal_ideation": 0
+          },
+          "generalMoodScore": 0.5
+        }
+      
+      
+    
+  ],
+  "summary_of_past_conversations": "The user is experiencing trouble sleeping due to anxiety about unfinished tasks related to a team project. They feel a heavy weight on their chest from the pressure and worry about disappointing their teammates. Nighttime stress impacts their ability to sleep and focus. Despite attempting to ask for help from teammates, they were told to work harder, leaving the user feeling like a \"deadweight.\" They struggle particularly with the documentation involving graphs and data, as well as UI features, and lose concentration frequently. The user feels trapped in a vicious cycle of stress and lack of sleep but hasn't mentioned specific methods they use to manage breaks or refocus."
+}
